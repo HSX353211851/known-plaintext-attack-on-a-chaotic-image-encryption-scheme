@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MSC2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MSC2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MSC2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/include" />
+			<Add directory="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/include/opencv2" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_calib3d411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_core411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_dnn411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_features2d411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_flann411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_gapi411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_highgui411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_imgcodecs411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_imgproc411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_ml411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_objdetect411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_photo411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_stitching411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_video411.dll.a" />
+			<Add library="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/lib/libopencv_videoio411.dll.a" />
+			<Add directory="C:/OpenCV-MinGW-Build-OpenCV-4.1.1-x64/x64/mingw/bin" />
+		</Linker>
+		<Unit filename="crack.cpp" />
+		<Unit filename="crack.h" />
+		<Unit filename="encrypt.cpp" />
+		<Unit filename="encrypt.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
